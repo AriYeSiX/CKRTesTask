@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29528d925f22bee46ac8dc95102d31bd, type: 3}
+  m_Name: ClickerFeedbackConfig
+  m_EditorClassIdentifier: 
+  _releasePunch: 0.12
+  _releaseDuration: 0.22
+  _releaseEase: 27
+  _rejectShakeStrength: 12
+  _rejectShakeDuration: 0.3
+  _rejectColor: {r: 1, g: 0.45, b: 0.45, a: 1}
+  _flyDuration: 0.9
+  _flyOffset: {x: 0, y: 260}
+  _spawnScatter: {x: 60, y: 30}
+  _flyEase: 9
+  _flyFadeStartNormalized: 0.6
+  _flyPunchScale: 0.25
+  _counterTweenDuration: 0.25
+  _clickSfx: {fileID: 8300000, guid: 03f96d462d8160243aed2d65ee9981df, type: 3}
+  _autoClickSfx: {fileID: 8300000, guid: 0143093638c6e1e4db25cc5f321cae6a, type: 3}
+  _rejectSfx: {fileID: 8300000, guid: 594d9b7529fc7c4409be54cbf3992f54, type: 3}
+  _sfxVolume: 0.8
+  _sfxPitchJitter: 0.08
